@@ -1,0 +1,128 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	background: #121212;
+	color: #e0e0e0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chat {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.card {
+	height: 500px;
+	border-radius: 15px !important;
+	background-color: #1f1f1f !important;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card-header {
+	border-radius: 15px 15px 0 0 !important;
+	border-bottom: 0 !important;
+	background-color: #2c2c2c;
+	color: #e0e0e0;
+}
+
+.card-footer {
+	border-radius: 0 0 15px 15px !important;
+	border-top: 0 !important;
+	background-color: #2c2c2c;
+}
+
+.input-group-text {
+	background-color: #464646 !important;
+	color: #f8d3a8 !important;
+	border: 1px solid #f8d3a8 !important;
+}
+
+.form-control {
+	background-color: #2a2a2a !important;
+	color: #f6f6f6 !important;
+	border: 1px solid #f8d3a8 !important;
+}
+
+.msg_card_body {
+	overflow-y: auto;
+	background-color: #1f1f1f;
+}
+
+.msg_cotainer {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 25px;
+	background-color: #f4b0c7;
+	padding: 10px;
+	position: relative;
+	color: #333;
+}
+
+.msg_cotainer_send {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+	background-color: #c5d2e8;
+	padding: 10px;
+	position: relative;
+	color: #333;
+}
+
+.msg_time, .msg_time_send {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+}
+
+.msg_time {
+	left: 0;
+	bottom: -15px;
+}
+
+.msg_time_send {
+	right: 0;
+	bottom: -15px;
+}
+
+.user_img {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+	border: 1.5px solid #f8d3a8;
+}
+
+.user_img_msg {
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border: 1.5px solid #f8d3a8;
+}
+
+.online_icon {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: #58cc71;
+	border-radius: 50%;
+	bottom: 0.2em;
+	right: 0.4em;
+	border: 1.5px solid white;
+}
+
+.user_info {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+
+.user_info span {
+	font-size: 20px;
+	color: #f8d3a8;
+}
+
+.user_info p {
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.6);
+}
